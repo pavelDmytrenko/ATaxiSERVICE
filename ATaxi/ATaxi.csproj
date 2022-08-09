@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,10 +17,6 @@
   <ItemGroup>
     <ProjectReference Include="..\ATaxi.BL\ATaxi.BL.csproj" />
     <ProjectReference Include="..\ATaxi.DL\ATaxi.DL.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>
